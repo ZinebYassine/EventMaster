@@ -27,6 +27,10 @@ namespace WebApp.Controllers
         {
             return View();
         }
+          public IActionResult Create2()
+        {
+            return View();
+        }
 
         //Post
         [HttpPost]
